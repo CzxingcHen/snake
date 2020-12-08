@@ -6,8 +6,8 @@
  */
 #include "snake.h"
 
-//移动蛇，需要修改蛇的坐标和地图状态，遇到食物需要调用eat()
-void Snake::move()
+//吃掉食物,需要修改得分并调用creat_food()
+void Snake::eat()
 {
     //Code here
     return;

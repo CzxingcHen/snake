@@ -44,10 +44,5 @@ void Snake::init()
 
 Snake::Snake()
 {
-    
-}
-
-Snake::~Snake()
-{
-
+    init();
 }

@@ -42,6 +42,8 @@ private:
     void print_map();
     //移动蛇，需要修改蛇的坐标和地图状态
     void move();
+    //吃掉食物,需要修改得分并调用creat_food()
+    void eat();
     //生成食物，需要修改食物坐标和地图状态
     void create_food();
     //add more functions here
@@ -49,7 +51,7 @@ public:
     //构造函数
     Snake();
     //析构函数
-    ~Snake();
+    ~Snake(){}
     //开始游戏，返回值为1时继续游戏，为0时退出游戏
     int Start();
 };
