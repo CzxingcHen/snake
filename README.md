@@ -1,2 +1,2 @@
 # snake
-snake game
+https://docs.qq.com/doc/DUkxIU2RRZklVSW1q

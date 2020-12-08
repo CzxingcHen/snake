@@ -6,7 +6,8 @@
  */
 #include "snake.h"
 
-//吃掉食物,需要修改得分并调用creat_food()
+//吃掉食物,需要修改得分，长度并调用creat_food()
+//需要修改的变量包括但不限于 legnth, score
 void Snake::eat()
 {
     //Code here

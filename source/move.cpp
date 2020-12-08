@@ -7,6 +7,7 @@
 #include "snake.h"
 
 //移动蛇，需要修改蛇的坐标和地图状态，遇到食物需要调用eat()
+//需要修改的变量包括但不限于 status, snake, head_x, head_y, head, tail, direction
 void Snake::move()
 {
     //Code here
